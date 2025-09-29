@@ -1,0 +1,22 @@
+.faq {
+  text-align: center;
+}
+
+.accordian-bar {
+  width: 30em;
+  margin: auto;
+  padding: 10px;
+  background-color: azure;
+}
+
+.title-bar {
+  display: flex;
+  margin: 0;
+  justify-content: space-around;
+  background-color: rgb(255, 175, 175);
+  padding: 20px;
+}
+
+.content-bar {
+  text-align: center;
+}
