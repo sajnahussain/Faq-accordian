@@ -1,14 +1,14 @@
 import "./App.css";
+import Carousal from "./Components/Carousal";
 import SampleAccord from "./Components/SampleAccord";
-
+import Toggle from "./Components/Toggle";
 function App() {
   return (
     <>
-      <h1>Sample Accordian</h1>
-      <h2 className="faq"> Frequently Added Questions.</h2>
+    <Carousal/>
     <SampleAccord/>
+    <Toggle/>
     </>
   );
 }
-
 export default App;
